@@ -134,7 +134,7 @@ const Hero = () => {
                       alt="Professional avatar"
                       className="absolute inset-0 w-full h-full object-cover object-center"
                       loading="lazy"
-                      onError={(e) => { e.currentTarget.src = '/devops-avatar.svg' }}
+                      onError={(e) => { e.currentTarget.src = '/myphoto.png' }}
                     />
                   </div>
                 </div>
