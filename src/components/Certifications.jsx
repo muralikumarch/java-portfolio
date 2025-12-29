@@ -16,7 +16,7 @@ const certifications = [
 	{
 		title: 'Azure AI Engineer Associate',
 		issuer: 'Microsoft',
-		image: '/microsoft-certified-associate-badge.svg',
+		image: 'microsoft-certified-associate-badge.svg',
 		issued: '2024',
 		expires: '',
 		credentialId: '',
@@ -26,7 +26,7 @@ const certifications = [
 	{
 		title: 'AWS Certified Developer Associate',
 		issuer: 'Amazon Web Services (AWS)',
-		image: '/aws-developer-associate-badge.png',
+		image: 'aws-developer-associate-badge.png',
 		issued: '2024',
 		expires: '',
 		credentialId: '',
@@ -36,7 +36,7 @@ const certifications = [
 	{
 		title: 'Azure Solutions Architect Expert',
 		issuer: 'Microsoft',
-		image: '/microsoft-certified-expert-badge.svg',
+		image: 'microsoft-certified-expert-badge.svg',
 		issued: '2022',
 		expires: '',
 		credentialId: '',
@@ -46,7 +46,7 @@ const certifications = [
 	{
 		title: 'Power Platform Developer Associate',
 		issuer: 'Microsoft',
-		image: '/microsoft-certified-associate-badge.svg',
+		image: 'microsoft-certified-associate-badge.svg',
 		issued: '2023',
 		expires: '',
 		credentialId: '',
@@ -56,7 +56,7 @@ const certifications = [
 	{
 		title: 'Oracle Certified Professional Java SE 8 Programmer',
 		issuer: 'Oracle',
-		image: '/ocp-badge.png',
+		image: 'ocp-badge.png',
 		issued: '2019',
 		expires: '',
 		credentialId: '',
@@ -66,7 +66,7 @@ const certifications = [
 	{
 		title: 'Future AWS AI Engineer',
 		issuer: 'Udacity',
-		image: '/udacity-badge.png',
+		image: 'udacity-badge.png',
 		issued: '2025',
 		expires: '',
 		credentialId: '',
@@ -76,7 +76,7 @@ const certifications = [
 	{
 		title: 'Cloud Architect using Microsoft Azure',
 		issuer: 'Udacity',
-		image: '/udacity-badge.png',
+		image: 'udacity-badge.png',
 		issued: '2025',
 		expires: '',
 		credentialId: '',
@@ -86,7 +86,7 @@ const certifications = [
 	{
 		title: 'Microsoft Power Up Program – Power Platform',
 		issuer: 'Microsoft',
-		image: '/microsoft-power-up-program-badge.png',
+		image: 'microsoft-power-up-program-badge.png',
 		issued: '2024',
 		expires: '',
 		credentialId: '',
