@@ -6,7 +6,7 @@ export default defineConfig(({ mode }) => {
 	const apiBase = process.env.VITE_API_BASE || ''
 	return {
 		plugins: [react()],
-		base: process.env.VITE_BASE || '/lead-portfolio/',
+		base: process.env.VITE_BASE || '/java-portfolio/',
 		server: {
 			proxy: {
 				'/api': 'http://localhost:5000'
