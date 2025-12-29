@@ -4,7 +4,12 @@ import cors from 'cors'
 import nodemailer from 'nodemailer'
 import { z } from 'zod'
 import fs from 'fs/promises'
+import path from 'path'
+import { fileURLToPath } from 'url'
 import { appendEvent, getEvents, getSummary } from './analytics.js'
+
+const __filename = fileURLToPath(import.meta.url)
+const __dirname = path.dirname(__filename)
 
 // Basic in-memory rate limiter
 function createRateLimiter({ windowMs, maxRequests, keyFn }) {
@@ -155,6 +160,15 @@ app.get('/api/analytics/events', async (req, res) => {
 		console.error('Events fetch error', e)
 		return res.status(500).json({ ok: false })
 	}
+})
+
+// Serve static files from the dist directory
+const distPath = path.join(__dirname, '..', 'dist')
+app.use(express.static(distPath))
+
+// SPA fallback: serve index.html for all non-API routes
+app.get('*', (req, res) => {
+	res.sendFile(path.join(distPath, 'index.html'))
 })
 
 const port = process.env.PORT || 5000
