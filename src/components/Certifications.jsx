@@ -6,7 +6,7 @@ const certifications = [
 	{
 		title: 'AWS Certified AI Practitioner',
 		issuer: 'Amazon Web Services (AWS)',
-		image: 'aws-ai-practitioner-badge.png',
+		image: '../assets/aws-ai-practitioner-badge.png',
 		issued: '2025',
 		expires: '',
 		credentialId: '',
@@ -16,7 +16,7 @@ const certifications = [
 	{
 		title: 'Azure AI Engineer Associate',
 		issuer: 'Microsoft',
-		image: 'microsoft-certified-associate-badge.svg',
+		image: '../assets/microsoft-certified-associate-badge.svg',
 		issued: '2024',
 		expires: '',
 		credentialId: '',
@@ -26,7 +26,7 @@ const certifications = [
 	{
 		title: 'AWS Certified Developer Associate',
 		issuer: 'Amazon Web Services (AWS)',
-		image: 'aws-developer-associate-badge.png',
+		image: 'assets/aws-developer-associate-badge.png',
 		issued: '2024',
 		expires: '',
 		credentialId: '',
