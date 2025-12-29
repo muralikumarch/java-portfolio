@@ -130,11 +130,11 @@ const Hero = () => {
                 <div className="relative w-full h-full rounded-full bg-gradient-to-br from-gray-900 to-black p-3 overflow-hidden ring-2 ring-primary-500/50">
                   <div className="relative w-full h-full rounded-full overflow-hidden bg-gradient-to-br from-gray-800 to-gray-900">
                     <img
-                      src="/myphoto.png"
+                      src="myphoto.png"
                       alt="Professional avatar"
                       className="absolute inset-0 w-full h-full object-cover object-center"
                       loading="lazy"
-                      onError={(e) => { e.currentTarget.src = '/myphoto.png' }}
+                      onError={(e) => { e.currentTarget.src = 'myphoto.png' }}
                     />
                   </div>
                 </div>

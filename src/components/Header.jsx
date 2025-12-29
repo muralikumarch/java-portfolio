@@ -44,7 +44,7 @@ const Header = () => {
           <div className="flex-shrink-0">
             <button onClick={() => scrollToSection('#home')} className="text-2xl font-bold gradient-text hover:scale-105 transition-transform duration-300 flex items-center gap-2">
               <div className="relative">
-                <img src="/favicon.ico" alt="Logo" className="inline-block w-10 h-10 rounded-full ring-2 ring-primary-500/50 hover:ring-primary-400 transition-all duration-300" />
+                <img src="favicon.ico" alt="Logo" className="inline-block w-10 h-10 rounded-full ring-2 ring-primary-500/50 hover:ring-primary-400 transition-all duration-300" />
                 <div className="absolute inset-0 rounded-full bg-primary-500/20 blur-lg animate-pulse-slow"></div>
               </div>
               <span className="hidden sm:inline">Venkata Murali Kumar Chintala</span>
