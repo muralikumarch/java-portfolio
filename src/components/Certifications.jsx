@@ -6,7 +6,7 @@ const certifications = [
 	{
 		title: 'AWS Certified AI Practitioner',
 		issuer: 'Amazon Web Services (AWS)',
-		image: '../assets/aws-ai-practitioner-badge.png',
+		image: 'aws-ai-practitioner-badge.png',
 		issued: '2025',
 		expires: '',
 		credentialId: '',
