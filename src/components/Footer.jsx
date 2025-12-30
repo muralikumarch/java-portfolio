@@ -27,6 +27,7 @@ const Footer = () => {
     { name: 'Skills', href: '#skills' },
     { name: 'Projects', href: '#projects' },
     { name: 'Experience', href: '#experience' },
+    { name: 'Certifications', href: '#certifications' },
     { name: 'Contact', href: '#contact' }
   ]
 
@@ -107,7 +108,7 @@ const Footer = () => {
               </p>
               <p className="flex items-center gap-2">
                 <span className="w-2 h-2 bg-green-500 rounded-full animate-pulse"></span>
-                Available for Remote Work
+                <span>Available for Remote Work</span>
               </p>
               <button
                 onClick={() => scrollToSection('#contact')}
@@ -120,16 +121,23 @@ const Footer = () => {
         </div>
 
         {/* Bottom Section */}
-        <div className="border-t border-gray-800/50 mt-8 pt-6 flex flex-col md:flex-row justify-between items-center gap-3">
-          <div className="text-gray-400 text-sm flex items-center gap-1">
-            <span>© {currentYear} Venkata Murali Kumar Chintala. Made with</span>
-            <Heart className="text-red-500 animate-pulse" size={14} fill="currentColor" />
-            <span>and lots of ☕</span>
+        <div className="border-t border-gray-800/50 mt-8 pt-6 flex flex-col md:flex-row justify-between items-center gap-4 text-center md:text-left">
+          <div className="text-gray-400 text-sm flex flex-wrap items-center justify-center gap-1">
+            <span>© {currentYear} Venkata Murali Kumar Chintala.</span>
+            <span className="flex items-center gap-1">
+              Made with
+              <Heart className="text-red-500 animate-pulse" size={14} fill="currentColor" />
+              and lots of ☕
+            </span>
           </div>
           
           <div className="text-gray-400 text-sm">
-            <span className="flex items-center gap-2">
-              Built with React • Tailwind CSS • Framer Motion
+            <span className="flex flex-wrap items-center justify-center gap-2">
+              <span>Built with React</span>
+              <span className="hidden sm:inline">•</span>
+              <span>Tailwind CSS</span>
+              <span className="hidden sm:inline">•</span>
+              <span>Framer Motion</span>
             </span>
           </div>
         </div>
