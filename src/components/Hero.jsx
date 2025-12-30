@@ -70,13 +70,12 @@ const Hero = () => {
                 Get In Touch
               </button>
               <a
-                href="Venkata_Murali_Kumar_Chintala_Resume.pdf"
-                target="_blank"
-                rel="noopener noreferrer"
+                href="/Venkata_Murali_Kumar_Chintala_Resume.pdf"
+                download="Venkata_Murali_Kumar_Chintala_Resume.pdf"
                 className="btn-secondary inline-flex items-center justify-center gap-2 group"
               >
                 <Download size={18} className="group-hover:translate-y-1 transition-transform" />
-                Download CV
+                Download Resume
               </a>
             </motion.div>
 
