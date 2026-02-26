@@ -4,6 +4,16 @@ import { ExternalLink} from 'lucide-react'
 
 const certifications = [
 	{
+		title: 'AWS Certified Solutions Architect – Associate',
+		issuer: 'Amazon Web Services (AWS)',
+		image: 'aws-solutions-architect-associate-badge.png',
+		issued: '2026',
+		expires: '',
+		credentialId: '',
+		credUrl: 'https://www.credly.com/badges/781d466b-8d24-470d-8564-f7a7f7747c74',
+		skills: ['Secure','Resilient','High-Performing','Cost-Optimized']
+	},
+	{
 		title: 'AWS Certified AI Practitioner',
 		issuer: 'Amazon Web Services (AWS)',
 		image: 'aws-ai-practitioner-badge.png',
