@@ -70,7 +70,7 @@ const Hero = () => {
                 Get In Touch
               </button>
               <a
-                href="/Venkata_Murali_Kumar_Chintala_Resume.pdf"
+                href="Venkata_Murali_Kumar_Chintala_Resume.pdf"
                 download="Venkata_Murali_Kumar_Chintala_Resume.pdf"
                 className="btn-secondary inline-flex items-center justify-center gap-2 group"
               >
