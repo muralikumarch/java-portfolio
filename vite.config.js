@@ -6,7 +6,7 @@ export default defineConfig(({ mode }) => {
 	const apiBase = process.env.VITE_API_BASE || ''
 	return {
 		plugins: [react()],
-		base: process.env.VITE_BASE || '/java-portfolio/',
+		base: process.env.VITE_BASE || '/portfolio/',
 		server: {
 			proxy: {
 				'/api': 'https://java-portfolio-server.onrender.com'
