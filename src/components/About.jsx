@@ -4,9 +4,9 @@ import { Code2, Cloud, BarChart3, Users } from 'lucide-react'
 
 const About = () => {
   const stats = [
-    { label: 'Years Experience', value: '15+', icon: Code2 },
-    { label: 'Projects Deployed', value: '10+', icon: Cloud },
-    { label: 'Cloud & AI Certifications', value: '8+', icon: BarChart3 },
+    { label: 'Years Experience', value: '16+', icon: Code2 },
+    { label: 'Projects Deployed', value: '15+', icon: Cloud },
+    { label: 'Cloud & AI Certifications', value: '10+', icon: BarChart3 },
     { label: 'Teams Supported', value: '10+', icon: Users },
   ]
 
