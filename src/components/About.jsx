@@ -25,7 +25,7 @@ const About = () => {
         >
           <h2 className="text-3xl sm:text-4xl font-bold gradient-text mb-4">About Me</h2>
           <p className="text-base sm:text-lg text-gray-400 max-w-3xl mx-auto">
-            Technical Lead Manager with full stack application and cloud technologies — open to remote opportunities
+            Technical Lead (Manager) with full stack application, cloud and AI technologies — open to opportunities
           </p>
         </motion.div>
 
@@ -40,10 +40,7 @@ const About = () => {
             <div className="absolute top-0 right-0 w-64 h-64 bg-primary-500/10 rounded-full blur-3xl"></div>
             <h3 className="text-xl sm:text-2xl font-bold gradient-text-primary mb-4 relative">Professional Summary</h3>
             <p className="text-gray-300 leading-relaxed text-sm sm:text-base relative">
-              Accomplished Full-Stack Technical Lead with 15+ years of progressive experience in the design and deployment of enterprise-scale applications. Expert in Java, Spring Boot, and Microservices, with a deep understanding of the full software development lifecycle within highly regulated industries like Banking and Healthcare.
-
-I bridge the gap between complex backend architecture and modern frontend experiences (Angular), while leveraging AWS, Azure, and Microsoft Power Platform to drive digital transformation. A dedicated Agile leader committed to technical excellence and delivering scalable, high-availability solutions.
-            </p>
+             Highly accomplished Full-Stack Technical Lead with 16+ years of experience driving the creation of high-quality, scalable tech products across E-Commerce, Healthcare, and Banking domains. Proven track record of leading and mentoring dynamic software engineering teams to build engaging, high-performance platform modules for global users. Deep polyglot expertise combining advanced proficiency in Python ecosystems with a robust foundation in enterprise Java/Spring Boot architecture. Expert in end-to-end RESTful API development, performance tuning, and rigorous code reviews to ensure error-free deliverables. Adept at leveraging cloud platforms (AWS/Azure), containerization, and diverse databases to architect highly available microservices and seamless cross-functional integrations.</p>
           </motion.div>
         </div>
 
@@ -63,13 +60,13 @@ I bridge the gap between complex backend architecture and modern frontend experi
             
             <div className="card-glass p-4 sm:p-5 rounded-2xl">
               <p className="text-sm sm:text-base text-gray-300 leading-relaxed">
-                My toolkit includes Java/Spring Boot, Angular, and Hibernate for robust application development. I design high-throughput backend services using Azure (API Management, Container Apps, Functions) and AWS (Lambda, API Gateway, EC2). I build secure, mission-critical platforms incorporating OAuth 2.0, JWT, and SOLID principles while leveraging the Microsoft Power Platform for rapid low-code business solutions.
+                My toolkit includes Java/Spring Boot, Angular, and Hibernate for robust application development. I design high-throughput backend services using Azure (API Management, Container Apps, Functions) and AWS (Lambda, API Gateway, EC2). Maintained hands-on technical leadership applying excellent Python engineering skills, including async programming and API development (FastAPI), to build scalable, inference-ready microservices and architect robust data solutions.I build secure, mission-critical platforms incorporating OAuth 2.0, JWT, and SOLID principles while leveraging the Microsoft Power Platform for rapid low-code business solutions.
               </p>
             </div>
 
             <div className="card-glass p-4 sm:p-5 rounded-2xl">
               <p className="text-sm sm:text-base text-gray-300 leading-relaxed">
-                Currently leading technical strategy at RCG Global Services, where I directed the migration of core applications to a microservices architecture on Azure Cloud Services. I am also integrating cutting-edge AI capabilities, holding recent certifications as an AWS AI Practitioner and Azure AI Engineer Associate. Open to remote opportunities.
+                Currently leading technical strategy at RCG Global Services, where I directed the migration of core applications to a microservices architecture on Azure/AWS Cloud Services. Championed engineering excellence and accelerated Agile delivery by institutionalizing AI-assisted coding methodologies across the SDLC, leveraging advanced code generation tools like GitHub Copilot and Claude CodeI am also integrating cutting-edge AI capabilities, holding recent certifications as an AWS AI Practitioner and Azure AI Engineer Associate. Open to remote opportunities.
               </p>
             </div>
           </motion.div>
