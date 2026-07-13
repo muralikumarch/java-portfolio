@@ -32,7 +32,7 @@ jobs:
       - name: Build
         env:
           VITE_API_BASE: ${{ secrets.VITE_API_BASE }}
-          VITE_BASE: ${{ vars.VITE_BASE }}
+          VITE_BASE: /portfolio/
         run: npm run build
 
       - name: Upload artifact
