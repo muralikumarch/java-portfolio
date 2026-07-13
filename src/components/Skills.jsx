@@ -6,8 +6,8 @@ const Skills = () => {
   const skillCategories = [
     {
       icon: Container,
-      title: 'Backend Engineering',
-      skills: ['Java/J2EE & Spring Framework', 'Spring Boot & Microservices Architecture', 'Hibernate & JPA', 'RESTful API', '..more'],
+      title: 'Backend & AI Engineering',
+      skills: ['Java/J2EE & Spring Framework', 'Spring Boot & Microservices Architecture', 'Hibernate & JPA', 'RESTful API', 'Python', 'FastAPI', 'LangChain', 'AWS Bedrock', 'OpenAI', 'Azure AI Foundry', '..more'],
       color: 'from-purple-500 to-pink-500'
     },
     {
@@ -25,7 +25,8 @@ const Skills = () => {
     {
       icon: Cloud,
       title: 'Cloud & Virtualization',
-      skills: ['Microsoft Azure: AKS, App Service, Functions, API Management', 'AWS: EC2, S3, RDS, Lambda, API Gateway', 'Environment Management: Tomcat, JBoss & Web Servers'],
+      skills: ['Microsoft Azure: App Service, Container Apps, Azure Storage, Functions, AKS, APIM, Azure Managed Redis, Azure Database for MySQL, Key Vault, Application Insights', 
+               'AWS: Amazon ECS, AWS Fargate, Amazon EKS, AWSLambda, AmazonAPI Gateway, Amazon RDS, DynamoDB, S3, Cognito, Secrets Manager, ECR, CloudWatch', 'Environment Management: Tomcat, JBoss & Web Servers'],
       color: 'from-blue-500 to-cyan-500'
     },
     {
@@ -43,13 +44,13 @@ const Skills = () => {
     {
       icon: Terminal,
       title: 'AI & Low-Code Platforms',
-      skills: ['GenAI: AWS Certified AI Practitioner & Azure AI Engineer', 'Microsoft Power Platform: Canvas/Model-Driven Apps & Power Pages', 'AI Tooling: GitHub Copilot & Copilot Studio'],
+      skills: ['GenAI: AWS Certified AI Practitioner & Azure AI Engineer', 'Microsoft Power Platform: Canvas/Model-Driven Apps & Power Pages', 'AI Tooling: GitHub Copilot & Copilot Studio, Claude code'],
       color: 'from-teal-500 to-blue-500'
     },
     {
       icon: User,
       title: 'Methodologies & Leadership',
-      skills: ['Agile Excellence: Scrum, Kanban, Sprint Planning, and Pair Programming', 'Team Leadership: Leading cross-functional teams and conducting code reviews', 'Collaboration: JIRA, Confluence, and ADO Boards'],
+      skills: ['Agile Excellence: Scrum, Kanban, Sprint Planning, and Pair Programming', 'Leadership & Management: Team Leadership, Mentoring, Engineering Management, Agile/Scrum, Technical Strategy, Cross-Functional Collaboration, Risk Mitigation and conducting code reviews', 'Collaboration: JIRA, Confluence, and ADO Boards'],
       color: 'from-teal-500 to-blue-500'
     }
   ]
