@@ -4,6 +4,16 @@ import { ExternalLink} from 'lucide-react'
 
 const certifications = [
 	{
+		title: 'GitHub Copilot',
+		issuer: 'Microsoft',
+		image: 'github-copilot.svg',
+		issued: '2026',
+		expires: '',
+		credentialId: '',
+		credUrl: 'https://learn.microsoft.com/en-us/users/muralichintala/credentials/fb6ab3fc42a1f2e9',
+		skills: ['GitHub Copilot features','Understand GitHub Copilot data and architecture','Improve developer productivity with GitHub Copilot','Configure privacy, content exclusions, and safeguards']
+	},
+	{
 		title: 'AWS Certified Solutions Architect – Associate',
 		issuer: 'Amazon Web Services (AWS)',
 		image: 'aws-solutions-architect-associate-badge.png',
