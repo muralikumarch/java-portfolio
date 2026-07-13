@@ -28,7 +28,7 @@ const Hero = () => {
               {/*   
               <div className="inline-flex items-center gap-2 bg-green-100 text-green-700 px-3 py-1 rounded-full text-sm font-medium">
                 <span className="w-2 h-2 bg-green-500 rounded-full"></span>
-                Open to Remote Opportunities
+                Open to Opportunities
               </div>
               */}
               <motion.h1 
@@ -55,7 +55,7 @@ const Hero = () => {
                 transition={{ duration: 0.8, delay: 0.6 }}
                 className="text-base text-gray-400 max-w-2xl leading-relaxed"
               >
-              I am a highly accomplished Full-Stack Technical Lead with over 15 years of experience architecting and deploying high-performance systems for the Healthcare, Banking, and E-Commerce sectors. I specialize in building scalable, enterprise-grade applications using the Java/Spring ecosystem and modern cloud architectures.
+              I am a highly accomplished Full-Stack Technical Lead with over 16 years of experience architecting and deploying high-performance systems for the Healthcare, Banking, and E-Commerce sectors. I specialize in building scalable, enterprise-grade applications using the Java/Spring ecosystem, modern cloud and Agentic AI services ecosystem with strong command of Gen AI engineering architectures.
 </motion.p>
             </div>
 
