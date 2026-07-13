@@ -7,7 +7,7 @@ const Skills = () => {
     {
       icon: Container,
       title: 'Backend & AI Engineering',
-      skills: ['Java/J2EE & Spring Framework', 'Spring Boot & Microservices Architecture', 'Hibernate & JPA', 'RESTful API', 'Python', 'FastAPI', 'LangChain', 'AWS Bedrock', 'OpenAI', 'Azure AI Foundry', '..more'],
+      skills: ['Java/J2EE & Spring Framework', 'Spring Boot, RESTful API & Microservices Architecture', 'Hibernate & JPA',  'Python, FastAPI, LangChain', 'AWS Bedrock, OpenAI, Azure AI Foundry', '..more'],
       color: 'from-purple-500 to-pink-500'
     },
     {
