@@ -20,11 +20,15 @@ const Experience = () => {
         'Executed deep-dive performance tuning on critical applications and database queries (e.g., PostgreSQL, MySQL), ensuring systems operate at peak efficiency and stability.',
         'Conducted mandatory, constructive code reviews across the entire team to uphold high coding standards technical quality, and security compliance. ',
         'Led the entire Agile Software Development Lifecycle for a high-performing engineering team, managing all facets of project delivery from sprint planning and resource allocation to timeline management.',
+        'Spearheaded an Agentic AI services ecosystem with strong command of Gen AI engineering patterns: prompt engineering, chain-of-thought reasoning, tool/function calling, vector embeddings, semantic search, and agent memory architectures.',
+        'Maintained hands-on technical leadership applying excellent Python engineering skills, including async programming and API development (FastAPI), to build scalable, inference-ready microservices and architect robust data solutions.',
+        'Championed engineering excellence and accelerated Agile delivery by institutionalizing AI-assisted coding methodologies across the SDLC, leveraging advanced code generation tools like GitHub Copilot and Claude Code.',
+        'Engineered robust, responsive single-page applications (SPAs) utilizing Angular and TypeScript, seamlessly integrating sophisticated AI workflows and RESTful APIs into intuitive user interfaces.',
         'Spearheaded DevOps maturity by automating and maintaining CI/CD pipelines using Azure DevOps, which significantly reduced deployment lead times and increased feature delivery reliability.',
         'Mentored and guided developers in technical skills and career growth, fostering a collaborative culture of continuous learning and technical excellence crucial for retention and performance.',
         'Consistently delivered predictable and rapid feature releases, ensuring project timelines were met and often exceeded through effective project governance. '
       ],
-      technologies: ['Java', 'Spring Boot', 'Azure Cloud', 'Angular', 'Microservices', 'Azure DevOps']
+      technologies: ['Java 21', 'Spring Boot', 'Azure Cloud', 'Angular', 'Microservices', 'Python', 'FastAPI', 'GitHub Copilot', 'Claude Code', 'Azure DevOps']
     },
           {
         title: 'Principal Java Developer',
@@ -48,11 +52,12 @@ const Experience = () => {
           'Formulated and executed comprehensive, end-to-end testing strategies, encompassing unit, integration, and UI automation tests with frameworks like JUnit, Mockito, and Cucumber, to validate application functionality against business requirements. ',
           'Applied formal development methodologies, including Test-Driven Development (TDD) and BehaviorDriven Development (BDD), to systematically elevate application quality, reliability, and long-term stability. ',
           'Performed systematic code reviews and maintained detailed API documentation using tools such as Swagger to uphold code quality with SonarQube, ensure clarity for developers, and foster a culture of shared ownership. ',
+          'Directed a specialized AI innovation pod, deploying Agentic AI workflows and autonomous agents utilizing LangChain, CrewAI, and OpenAI to automate complex predictive modeling.',
           'Engineered and managed CI/CD pipelines using Jenkins, Maven, and ANT to fully automate the build, testing, and deployment lifecycle, thereby reducing manual errors and accelerating release cycles. ',
           'Utilized version control systems, including Git and SVN, adhering to industry best practices for branching strategies and peer code reviews to maintain a clean and traceable code history. ',
           'Managed the deployment of containerized applications utilizing Docker, ensuring environmental consistency from development through to production.'
         ],
-        technologies: ['Java', 'Springboot', 'Oracle', 'Microservices', 'Azure', 'Microsoft Power Platform', 'Angular']
+        technologies: ['Java 6,8,11+', 'Springboot', 'Oracle', 'Microservices', 'Azure', 'Microsoft Power Platform', 'Angular', 'AWS', 'Python', 'LangChain', 'AWS Bedrock']
       },
     {
       title: 'Senior Software Engineer',
@@ -68,7 +73,7 @@ const Experience = () => {
         'Architected and implemented mission-critical, mobile-optimized RESTful APIs (JAX-RS) using Java/J2EE, focusing on payload efficiency and low response times for mobile consumption. ',
         'Instituted and enforced organization-wide security protocols for mobile access, Session, JWT, and RoleBased Access Control (RBAC) to secure sensitive data via application services.'
       ],
-      technologies: ['Java', 'Spring framework', 'Oracle', 'Servlets/Jsp', 'Tomcat', 'Linux', 'Jira', 'Ant', 'Jenkins' ]
+      technologies: ['Java', 'Spring framework', 'Oracle', 'Servlets/Jsp', 'Javascript', 'Kony Mobile Platform', 'Android', 'Swift/ios', 'Tomcat', 'Linux', 'Jira', 'Ant', 'Jenkins', 'AWS S3', 'AWS Lamda']
     },
     {
       title: 'Software Engineer',
@@ -80,7 +85,7 @@ const Experience = () => {
         'Develop and implement robust server-side business logic and services utilizing Core Java and modern principles of the Spring framework.',
         'Manage data interaction by integrating applications with the database layer, specifically demonstrating expertise in Oracle 10g for querying, transaction management, and performance optimization. ',
         'Ensure application integrity by configuring, deploying, and maintaining Java/J2EE applications within the JBOSS 5 application server environment.',
-        'Contribute to the presentation layer using JSP (Java Server Pages) for dynamic content generation and integration with Servlet back-end components.',
+        'Contribute to the presentation layer using JSP (Java Server Pages),  JavaServer Faces (JSF), PrimeFaces, for dynamic content generation and integration with Servlet back-end components.',
         'Create highly interactive and customized UI components to enhance the functionality and user experience of web applications.',
         'Drive front-end development using foundational web technologies including JavaScript, HTML, and CSS to build responsive and aesthetically pleasing interfaces.',
         'Leverage specialized UI frameworks, such as PrimeFaces, to quickly develop rich, component-based user interfaces and complex data displays.',
@@ -88,7 +93,7 @@ const Experience = () => {
         'Maintain and support existing Java/J2EE web applications, providing rapid analysis and resolution of technical issues in production environments.',
         'Adhere to best practices in coding standards, version control, and application architecture to ensure high quality, scalable, and maintainable software'
       ],
-      technologies: ['Java', 'J2EE', 'Struts', 'Oracle', 'Tomcat', 'JBoss', 'JIRA','Jenkins']
+      technologies: ['Java', 'J2EE', 'Struts',  'JSF', 'PrimeFaces', 'Oracle', 'Tomcat', 'JBoss', 'JIRA', 'Jenkins', 'AWS S3', 'AWS Lamda']
     }
   ]
 
